@@ -1,3 +1,8 @@
+<!-- Big Title -->
+<div class="title">
+    <h1 style="text-align: center; font-size: 3em; font-weight: bold; margin-top: 20px;">Social Buzz Analysis from Forage Project</h1>
+</div>
+
 <!-- Deck 1: Project Title -->
 <div class="deck" id="deck1">
     <h2>Deck 1: Project Title</h2>
@@ -108,24 +113,23 @@
     <p>Explanation for insights goes here...</p>
 </div>
 
-<!-- Deck 11: Summary -->
+<!-- Deck 11: Thank You -->
 <div class="deck" id="deck11">
-    <h2>Deck 11: Summary</h2>
+    <h2>Deck 11: Thank You</h2>
     <img src="https://github.com/EdmundFrimpong/Excel-Project/blob/ee4db799c696a47e00f16a384ba26f0fae6bf4b5/Slide11.JPG?raw=true"
-         alt="Summary"
-         style="max-width: 100%; height: auto;"
-         loading="lazy"
-         srcset="https://github.com/EdmundFrimpong/Excel-Project/blob/ee4db799c696a47e00f16a384ba26f0fae6bf4b5/Slide11.JPG?raw=true 1x, https://github.com/EdmundFrimpong/Excel-Project/blob/ee4db799c696a47e00f16a384ba26f0fae6bf4b5/Slide11.JPG?raw=true 2x">
-    <p>Explanation for the summary goes here...</p>
-</div>
-
-<!-- Deck 12: Thank You -->
-<div class="deck" id="deck12">
-    <h2>Deck 12: Thank You</h2>
-    <img src="https://github.com/EdmundFrimpong/Excel-Project/blob/ee4db799c696a47e00f16a384ba26f0fae6bf4b5/Slide12.JPG?raw=true"
          alt="Thank You"
          style="max-width: 100%; height: auto;"
          loading="lazy"
-         srcset="https://github.com/EdmundFrimpong/Excel-Project/blob/ee4db799c696a47e00f16a384ba26f0fae6bf4b5/Slide12.JPG?raw=true 1x, https://github.com/EdmundFrimpong/Excel-Project/blob/ee4db799c696a47e00f16a384ba26f0fae6bf4b5/Slide12.JPG?raw=true 2x">
-    <p>Thank you for your attention! Let me know if you have any questions.</p>
+         srcset="https://github.com/EdmundFrimpong/Excel-Project/blob/ee4db799c696a47e00f16a384ba26f0fae6bf4b5/Slide11.JPG?raw=true 1x, https://github.com/EdmundFrimpong/Excel-Project/blob/ee4db799c696a47e00f16a384ba26f0fae6bf4b5/Slide11.JPG?raw=true 2x">
+    <p>Explanation for the thank you goes here...</p>
+</div>
+
+<!-- Deck 12: Project Documents -->
+<div class="deck" id="deck12">
+    <h2>Deck 12: Project Documents</h2>
+    <p>Links to project documents:</p>
+    <ul>
+        <li><a href="path-to-your-Excel-file" target="_blank">Excel File</a></li>
+        <li><a href="path-to-your-PowerPoint-file" target="_blank">PowerPoint File</a></li>
+    </ul>
 </div>
