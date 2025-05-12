@@ -1,54 +1,59 @@
-# Excel-Project
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Excel Project - Coming Soon</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-
-        body {
-            font-family: 'Montserrat', sans-serif;
-            background: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-        }
-
-        .coming-soon-container {
-            background: #ffffff;
-            padding: 50px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            position: relative;
-        }
-
-        .coming-soon {
-            font-size: 48px;
-            color: #ff8c00;
-            animation: pulse 1.5s infinite;
-        }
-
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.1);
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Excel Project - Slide Deck</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      overflow-x: hidden;
+    }
+    .slide {
+      height: 100vh;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid #ccc;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .slide:nth-child(odd) {
+      background: #f7f7f7;
+    }
+    .slide:nth-child(even) {
+      background: #e3f2fd;
+    }
+  </style>
 </head>
 <body>
-    <div class="coming-soon-container">
-        <h1>Excel Project</h1>
-        <p class="coming-soon">COMING SOON</p>
-    </div>
+  <div class="slide">
+    <h1>Excel Sales Analysis</h1>
+    <p>Overview of the project and objectives</p>
+  </div>
+
+  <div class="slide">
+    <h2>Data Cleaning</h2>
+    <p>Removed duplicates, standardized date formats, fixed missing values</p>
+  </div>
+
+  <div class="slide">
+    <h2>Pivot Table Insights</h2>
+    <p>Top-performing products, monthly trends, regional breakdowns</p>
+  </div>
+
+  <div class="slide">
+    <h2>Charts & Dashboard</h2>
+    <p>Visual insights using bar, line, and pie charts</p>
+  </div>
+
+  <div class="slide">
+    <h2>Conclusion</h2>
+    <p>Recommendations based on data trends</p>
+  </div>
 </body>
 </html>
