@@ -74,9 +74,6 @@
   </header>
 
   <!-- Decks 1 to 12 -->
-  <!-- Use updated PNG URLs -->
-  <!-- Use placeholder text for now for explanations -->
-
   <script>
     const decks = [
       {title: "Project Title", img: "Slide1.PNG", text: "This slide introduces the Social Buzz Analysis project, outlining its purpose and significance."},
@@ -98,7 +95,7 @@
       section.className = 'deck';
       section.id = `deck${index + 1}`;
       section.innerHTML = `
-        <h2>Deck ${index + 1}: ${deck.title}</h2>
+        <h2>${deck.title}</h2>
         <img src="https://raw.githubusercontent.com/EdmundFrimpong/Excel-Project/main/${deck.img}" alt="${deck.title}" />
         <p>${deck.text}</p>
       `;
@@ -108,10 +105,10 @@
 
   <!-- Deck 13: Project Documents -->
   <div class="deck" id="deck13">
-    <h2>Deck 13: Project Documents</h2>
+    <h2>Project Documents</h2>
     <p>You can access the project files below:</p>
     <ul>
-      <li><a href="https://1drv.ms/x/c/af5078129484b3f9/EdMO3dM3mGpFoPiR6KhqGrMBt6Q_KsqR3CFpMLwT8TqTUw?e=vwV7Df" target="_blank">Excel Workbook</a></li>
+      <li><a href="" target="_blank">Excel Workbook</a></li>
       <li><a href="https://github.com/EdmundFrimpong/Excel-Project" target="_blank">Presentation Slides (GitHub Repository)</a></li>
     </ul>
   </div>
